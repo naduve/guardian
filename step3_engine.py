@@ -17,7 +17,7 @@ FS           = 48000      # sample rate
 BLOCK        = 4096       # ~85ms per block
 CHANNELS     = 2          # hardware needs 2ch; we use left channel only
 MIC_SENS     = -26.0      # INMP441 sensitivity dBFS @ 94dB SPL
-CAL_OFFSET   = 0.0        # tune after calibration in Step 4
+CAL_OFFSET   = 2.0        # rough cal vs NIOSH app — refine with UT353 in Step 4
 EXCHANGE     = 3.0        # NIOSH 3dB exchange rate
 CRITERION    = 85.0       # 85 dB(A) / 8h = 100% dose
 
